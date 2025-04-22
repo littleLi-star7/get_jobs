@@ -599,7 +599,7 @@ public class Boss {
     }
 
     private static boolean isSalaryInExpectedFormat(String salaryText) {
-        return salaryText.contains("K") || salaryText.contains("k");
+        return salaryText.contains("K") || salaryText.contains("k") || salaryText.contains("元/天");
     }
 
     private static String cleanSalaryText(String salaryText) {
